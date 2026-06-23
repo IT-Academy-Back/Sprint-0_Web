@@ -19,3 +19,16 @@ Permet afegir interactivitat i comportament a les aplicacions web.
 ## Objectiu del bloc
 
 L'objectiu no és dominar aquestes tecnologies, sinó tenir una primera presa de contacte amb el desenvolupament frontend, entendre el paper de cadascuna d'elles i descobrir si és un àmbit que us resulta interessant.
+
+---
+
+## Punt de control
+
+Abans de passar al bloc d'algoritmia, hauries de poder explicar:
+
+- Quin paper té l'HTML en una pàgina web.
+- Quin paper té el CSS.
+- Quin paper té JavaScript.
+- Com es connecten HTML, CSS i JavaScript dins d'un projecte senzill.
+- Quina diferència hi ha entre estructura, estil i comportament.
+- Quina part del frontend t'ha resultat més clara i quina t'ha costat més.

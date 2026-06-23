@@ -20,14 +20,14 @@ Al final del sprint hauràs de triar l'itinerari d'especialització que seguirà
 - [Activitat amb DevTools: mirar la web per dins](./fonaments-web/DevTools.md) (1h)
 - Test presentacions
 - [Desenvolupament frontend vs backend](./fonaments-web/front-back.md)
-- Punt de control
+- [Punt de control](./fonaments-web/README.md#punt-de-control)
 
 ### Introducció al Frontend
 - [Índex del bloc](./frontend-basics/README.md)
 - [HTML](./frontend-basics/html/README.md)
 - [CSS](./frontend-basics/css/README.md)
 - [Javascript](./frontend-basics/js/README.md)
-- Punt de control
+- [Punt de control](./frontend-basics/README.md#punt-de-control)
 
 ### Algoritmia
 - [Índex del bloc](./algoritmia/README.md)
@@ -36,7 +36,7 @@ Al final del sprint hauràs de triar l'itinerari d'especialització que seguirà
 - [Introducció a PHP](./algoritmia/php-intro.md)
 - Entorn de desenvolupament
 - [Exercicis amb Java i PHP](./algoritmia/algoritmia.md)
-- Punt de control
+- [Punt de control](./algoritmia/README.md#punt-de-control)
 
 ### Repte Final
 - [Índex del bloc](./repte-final/README.md)
