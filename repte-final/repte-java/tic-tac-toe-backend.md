@@ -88,6 +88,60 @@ El backend manté l'estat de la partida mentre l'aplicació està en execució. 
 
 L'estructura del tauler ja estarà creada al projecte base. No cal crear l'array des de zero.
 
+El tauler és un array bidimensional de 3x3 (`int[3][3]`). Això vol dir que el podem imaginar com una graella amb **files** i **columnes**.
+
+En Java, per accedir a una casella fem servir aquesta estructura:
+
+```java
+board[fila][columna]
+```
+
+Les files i les columnes van de `0` a `2`. Per tant, les caselles del tauler es poden localitzar així:
+
+|        | Columna 0 | Columna 1 | Columna 2 |
+| ------ | --------- | --------- | --------- |
+| Fila 0 | `(0,0)` | `(0,1)` | `(0,2)` |
+| Fila 1 | `(1,0)` | `(1,1)` | `(1,2)` |
+| Fila 2 | `(2,0)` | `(2,1)` | `(2,2)` |
+
+Per exemple:
+
+- `board[0][0]` és la casella de dalt a l'esquerra.
+- `board[1][1]` és la casella del centre.
+- `board[2][2]` és la casella de baix a la dreta.
+
+Un tauler buit es pot representar així:
+
+|        | Columna 0 | Columna 1 | Columna 2 |
+| ------ | --------- | --------- | --------- |
+| Fila 0 | `0` | `0` | `0` |
+| Fila 1 | `0` | `0` | `0` |
+| Fila 2 | `0` | `0` | `0` |
+
+I un tauler amb una jugada del jugador i una jugada de la màquina es pot veure així:
+
+|        | Columna 0 | Columna 1 | Columna 2 |
+| ------ | --------- | --------- | --------- |
+| Fila 0 | `0` | `0` | `0` |
+| Fila 1 | `0` | `1` | `0` |
+| Fila 2 | `0` | `2` | `0` |
+
+Aquest mateix tauler, quan viatja com a resposta JSON, es veu així:
+
+```text
+[
+  [0, 0, 0],
+  [0, 1, 0],
+  [0, 2, 0]
+]
+```
+
+En aquest exemple:
+
+- `board[1][1]` val `1`, per tant hi ha una fitxa del jugador al centre.
+- `board[2][1]` val `2`, per tant hi ha una fitxa de la màquina a la fila inferior, columna central.
+- Les caselles amb `0` estan buides.
+
 El tauler utilitza aquests valors:
 
 | Valor | Significat |
