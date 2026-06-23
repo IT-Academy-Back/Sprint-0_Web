@@ -9,18 +9,29 @@ Completar la lògica backend d'un joc de **3 en ratlla**.
 Rebràs un frontend ja preparat i un backend Java amb Spring Boot. El projecte ja té l'estructura creada i la comunicació entre frontend i backend preparada.
 
 La teva feina serà completar algunes funcionalitats dins del servei del joc.
-
 ---
 
 ## Què rebràs?
 
 - Una carpeta `dist` amb el frontend compilat.
-- Un projecte `backend` amb Spring Boot.
-- Codi Java ja preparat.
-- L'inici de la partida ja implementat.
-- El tauler del joc ja definit.
-- Les classes de request i response ja creades.
-- Comentaris dins del codi indicant quines parts s'han de completar.
+- Un projecte `backend` amb Spring Boot i codi Java ja preparat:
+  - Inici de la partida implementat.
+  - Tauler del joc definit.
+  - Classes de request i response creades.
+  - Comentaris indicant quines parts s'han de completar.
+
+---
+
+## Arquitectura del sistema
+
+El sistema segueix l'arquitectura client-servidor: el frontend (navegador) es comunica amb el backend (servidor Spring Boot) mitjançant una API REST que intercanvia dades en format JSON.
+
+```mermaid
+graph LR
+    A["Navegador (Frontend)"] -->|"POST /game/start"| B["Servidor (Spring Boot)"]
+    A -->|"POST /game/play<br/>JSON {row, col}"| B
+    B -->|"JSON {board, status}"| A
+```
 
 ---
 
