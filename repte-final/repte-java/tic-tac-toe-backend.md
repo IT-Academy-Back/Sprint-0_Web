@@ -17,6 +17,9 @@ La teva feina serà completar algunes funcionalitats dins del servei del joc.
 - Una carpeta `dist` amb el frontend compilat.
 - Un projecte `backend` amb Spring Boot.
 - Codi Java ja preparat.
+- L'inici de la partida ja implementat.
+- El tauler del joc ja definit.
+- Les classes de request i response ja creades.
 - Comentaris dins del codi indicant quines parts s'han de completar.
 
 ---
@@ -58,6 +61,7 @@ No cal modificar:
 - el frontend,
 - el controller,
 - els models,
+- les classes de request i response,
 - els endpoints,
 - la configuració del projecte.
 
@@ -67,7 +71,11 @@ No cal modificar:
 
 El jugador selecciona una casella del tauler. Si la partida no ha acabat, la màquina fa una jugada aleatòria en una casella lliure.
 
+La jugada aleatòria de la màquina ja estarà programada al projecte base. No caldrà implementar aquesta part.
+
 El backend manté l'estat de la partida mentre l'aplicació està en execució. No cal guardar dades en cap base de dades.
+
+L'estructura del tauler ja estarà creada al projecte base. No cal crear l'array des de zero.
 
 El tauler utilitza aquests valors:
 
@@ -89,7 +97,7 @@ El projecte base ja defineix aquests endpoints.
 POST /game/start
 ```
 
-Inicia o reinicia la partida i retorna un tauler buit.
+Inicia o reinicia la partida i retorna un tauler buit. Aquesta part ja estarà implementada al projecte base.
 
 ### Fer una jugada
 
@@ -140,13 +148,14 @@ Exemple de response:
 
 Dins de `GameService.java` trobaràs comentaris que indiquen què falta implementar.
 
+No hauràs de crear l'inici del joc, el tauler, la request ni la response. Aquestes parts ja venen preparades.
+
 Hauràs de completar la lògica per:
 
 - validar si una jugada és correcta,
 - comprovar que la casella està dins del tauler,
 - comprovar que la casella està buida,
 - marcar la jugada del jugador,
-- fer una jugada aleatòria de la màquina,
 - detectar si guanya el jugador,
 - detectar si guanya la màquina,
 - detectar si hi ha empat,
@@ -190,11 +199,9 @@ L'exercici està acabat quan:
 
 Abans de modificar codi, localitza aquests mètodes dins de `GameService.java`:
 
-- `startGame()`
 - `playMove(...)`
 - `isValidMove(...)`
 - `isInsideBoard(...)`
-- `playMachineMove()`
 - `hasWinner(...)`
 - `isDraw()`
 
@@ -204,8 +211,6 @@ Recorda conceptes treballats a la introducció de Java:
 - condicionals,
 - bucles,
 - mètodes,
-- `ArrayList`,
-- `Random`,
 - retorns `boolean`.
 
 ---

@@ -2,9 +2,10 @@
 ## Materials
 
 ### Fonaments de la Web
-- Arquitectura Client-Servidor
-- Anatomia de d'una URL
-- Estructura d'un projecte
+- [Índex del bloc](./fonaments-web/README.md)
+- Arquitectura client-servidor
+- Anatomia d'una URL
+- Estructura d'un projecte web
 - [Activitat amb DevTools: mirar la web per dins](./fonaments-web/DevTools.md) (1h)
 - Test presentacions
 - [Desenvolupament frontend vs backend](./fonaments-web/front-back.md)
