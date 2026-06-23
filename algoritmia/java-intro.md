@@ -12,7 +12,7 @@ Ara començarem a treballar amb Java. L'objectiu no és memoritzar tota la sinta
 
 Java és un llenguatge de programació molt utilitzat en aplicacions d'empresa, aplicacions web, serveis backend, aplicacions Android i sistemes grans.
 
-Java és un llenguatge fortament orientat a objectes. Això vol dir que el codi s'acostuma a organitzar en classes i objectes, que representen conceptes del problema que volem resoldre.
+Java és un llenguatge fortament tipat i orientat a objectes. Això vol dir que el codi s'acostuma a organitzar en classes i objectes, que representen conceptes del problema que volem resoldre.
 
 Per exemple, en una aplicació podríem tenir classes com `User`, `Product`, `Order` o `Student`.
 
@@ -67,6 +67,7 @@ De moment no cal entendre cada paraula de `public static void main(String[] args
 | La indentació defineix blocs | Les claus `{}` defineixen blocs |
 | Pots escriure scripts simples directament | El codi normalment s'organitza dins de classes |
 | Llistes | Arrays o `ArrayList` |
+| `def` o `function` | Mètodes dins d'una classe |
 
 ---
 
@@ -126,13 +127,53 @@ import java.util.ArrayList;
 
 Si fas servir `ArrayList`, hauràs d'importar-lo.
 
-### Mètodes
+### Funcions i mètodes
+
+En Python has fet servir `def` per definir funcions:
+
+```py
+def saludar(nom):
+    print("Hola", nom)
+```
+
+En JavaScript has vist `function` o funcions semblants:
+
+```js
+function saludar(nom) {
+    console.log("Hola " + nom);
+}
+```
+
+En Java normalment parlem de **mètodes**, perquè el codi viu dins d'una classe.
+
+```java
+void saludar(String nom) {
+    System.out.println("Hola " + nom);
+}
+```
+
+Exemple amb retorn:
+
+```java
+int sumar(int a, int b) {
+    return a + b;
+}
+```
+
+Comparació ràpida:
+
+| Python | JavaScript | Java |
+| ------ | ---------- | ---- |
+| `def saludar(nom):` | `function saludar(nom) {}` | `void saludar(String nom) {}` |
+| `return a + b` | `return a + b;` | `return a + b;` |
 
 Preguntes guia:
 
 - Com creo un mètode que retorna un número?
 - Com creo un mètode que no retorna res?
 - On escric els mètodes dins d'una classe?
+- Quin tipus retorna el mètode?
+- Quins paràmetres rep?
 
 ### Comparar textos
 
