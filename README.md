@@ -1,3 +1,14 @@
+# Sprint 0 · Introducció al desenvolupament web
+
+Aquest sprint és una primera immersió en el món del desenvolupament web. Al llarg del bloc descobriràs com funciona la Web, com es comuniquen els navegadors amb els servidors i quins són els principals rols dins d'un projecte web.
+
+També faràs una primera presa de contacte amb les tecnologies bàsiques del frontend (HTML, CSS i JavaScript), practicaràs conceptes fonamentals de programació i experimentaràs amb Java i PHP, dos llenguatges habituals en el desenvolupament backend.
+
+L'objectiu no és dominar aquestes tecnologies, sinó comprendre els conceptes essencials, familiaritzar-te amb les eines de treball i obtenir una visió global de les diferents àrees del desenvolupament web.
+
+Al final del sprint hauràs de triar l'itinerari d'especialització que seguiràs durant la resta de la formació: **Frontend**, amb la possibilitat d'especialitzar-te en **React** o **Angular**; **Full Stack**, treballant amb **PHP** i **Laravel**; o **Backend**, desenvolupant aplicacions amb **Java** i **Spring Boot**.
+
+---
 
 ## Materials
 
