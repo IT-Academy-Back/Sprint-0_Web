@@ -42,4 +42,20 @@ Al final del sprint hauràs de triar l'itinerari d'especialització que seguirà
 - [Punt de control](./repte-final/README.md#punt-de-control)
 
 ### Entrevista Final
-Es decidirà l'especialitat
+
+Al final del sprint faràs una entrevista amb l'equip docent per revisar el teu recorregut durant el Sprint 0.
+
+En aquesta conversa es tindrà en compte:
+
+- com t'has sentit treballant amb frontend,
+- com t'has sentit treballant amb backend,
+- com has resolt els reptes de Java i PHP,
+- quines parts t'han resultat més interessants,
+- quines parts t'han costat més,
+- quin tipus de tasques encaixen millor amb el teu perfil.
+
+L'objectiu de l'entrevista és ajudar-te a decidir quin itinerari d'especialització seguiràs a partir d'ara:
+
+- **Frontend**,
+- **Full Stack amb PHP / Laravel**,
+- **Backend amb Java / Spring Boot**.
