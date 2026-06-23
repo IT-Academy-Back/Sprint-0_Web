@@ -1,6 +1,6 @@
-# DevTools: Fonaments pràctics de la Web
+# DevTools: Fonaments pràctics de la web
 
-Abans de decidir si vols orientar-te cap a frontend o backend, necessites entendre com funciona la web a nivell general. Primer mirarem què passa en qualsevol pàgina web quan l'obres al navegador.
+Abans de decidir si vols orientar-te cap a frontend o backend, necessites entendre com funciona la web en general. Primer mirarem què passa en qualsevol pàgina web quan l'obres al navegador.
 
 En aquesta activitat no hauràs d'implementar codi. L'objectiu és observar, relacionar conceptes i començar a entendre el recorregut complet d'una acció: des que escrius una URL o fas clic en una pàgina fins que el navegador mostra una resposta.
 
@@ -13,11 +13,11 @@ En aquesta activitat no hauràs d'implementar codi. L'objectiu és observar, rel
 En acabar aquesta activitat hauràs entès:
 
 - Què és una aplicació web.
-- Què vol dir client-server.
+- Què vol dir client-servidor.
 - Què fa el navegador quan obres una pàgina.
 - Quina diferència hi ha entre HTML, CSS i JavaScript.
 - Què són una request i una response HTTP.
-- Què és una API, que és i per què a que s'utilitza JSON.
+- Què és una API, què és JSON i per què s'utilitza.
 - Com observar una web amb DevTools (eines de desenvolupament del navegador).
 - Com veure el JSON que envia i rep el navegador.
 
@@ -25,17 +25,17 @@ En acabar aquesta activitat hauràs entès:
 
 ## Què és una aplicació web
 
-Una aplicació web és un sistema que utilitzes des del navegador. Pot ser una pàgina molt simple, com una documentació, o una aplicació complexa, com GitHub, Gmail, Spotify Web o una botiga online.
+Una aplicació web és un sistema que utilitzes des del navegador. Pot ser una pàgina molt simple, com una documentació, o una aplicació complexa, com GitHub, Gmail, Spotify Web o una botiga en línia.
 
-Quan obres una web el navegador demana recursos, per exemple tots els llibres d'una biblioteca, a un o més servidors i després els interpreta per mostrar una interfície.
+Quan obres una web, el navegador demana diferents fitxers o dades a un o més servidors i després els interpreta per mostrar una interfície.
 
 Una web acostuma a combinar diverses peces:
 
-- **HTML**, que defineix l'estructura o la semàntica del contingut en la vista de l'usuari.
-- **CSS**, que defineix l'estil visual dels elements que mostra el dfrontend.
-- **JavaScript**, que afegeix interacció en el navegador, executante en el frontend.
-- **Imatges, fonts i altres recursos**. que han de ser carregats per els clients navegadors en el moment de lexecució
-- **Dades**, sovint rebudes des d'una API. en formats com JSON desde el servidor
+- **HTML**, que defineix l'estructura i la semàntica del contingut.
+- **CSS**, que defineix l'estil visual dels elements que mostra el frontend.
+- **JavaScript**, que afegeix interacció i s'executa al navegador.
+- **Imatges, fonts i altres recursos**, que el navegador ha de carregar durant l'execució.
+- **Dades**, sovint rebudes des d'una API en format JSON.
 
 ```text
 HTML + CSS + JavaScript + recursos + dades = experiència al navegador
@@ -47,11 +47,11 @@ No totes les webs utilitzen totes aquestes peces de la mateixa manera. Una pàgi
 
 ## Model client-servidor
 
-La web funciona principalment amb un model **client-server** (client-servidor).
+La web funciona principalment amb un model **client-servidor**.
 
-El **client** és qui demana alguna cosa. fent una petició o request a un backent que té un servidor web. Normalment és el navegador pero també pot ser un altre backend o una app movil per exemple.
+El **client** és qui inicia la comunicació fent una petició o **request**. Normalment és el navegador, però també podria ser una aplicació mòbil o un altre servei.
 
-El **servidor** és qui rep la petició, la processa segons certes normes del negoci, treballa amb les dades internes de la aplicació i retorna una resposta o request que el client interpretarà.
+El **servidor** és qui rep la petició, la processa segons la lògica de l'aplicació, treballa amb les dades internes si cal i retorna una resposta o **response** que el client pot interpretar.
 
 ```text
 Usuari -> Navegador -> Internet -> Servidor -> Resposta -> Navegador
@@ -95,24 +95,24 @@ El navegador, com a client HTTP, no només “mostra pàgines”. Fa molta feina
 - mostra errors a la consola,
 - actualitza la pantalla quan canvien les dades.
 
-Per això el navegador és una eina clau tant per frontend com per backend. Encara que vulguis fer backend, has d'entendre què envia i què rep el client.
+Per això el navegador és una eina clau tant per frontend com per backend. Encara que vulguis especialitzar-te en backend, has d'entendre què envia i què rep el client.
 
 ---
 
 ## Frontend i backend
 
-El **frontend** és la part visible d'una aplicació web: el que veus i amb què interactues al navegador.
+El **frontend** és la part visible d'una aplicació web: allò que veus i amb què interactues al navegador.
 
 Per exemple:
 
 - un botó,
 - un formulari,
-- una card,
+- una targeta,
 - un menú,
 - un tauler de joc,
 - un missatge d'error.
 
-El frontend s'encarrega de mostrar informació i capturar les accions de l'usuari. I principalment treballarem amb les tecnologies web standard i sobre frameworks com React o Angular.
+El frontend s'encarrega de mostrar informació i capturar les accions de l'usuari. Principalment treballa amb tecnologies web estàndard i, en projectes més avançats, amb frameworks com React o Angular.
 
 El **backend** és la part que s'executa al servidor. No la veus directament, però decideix què passa amb les dades i modela la lògica de l'aplicació.
 
@@ -133,13 +133,13 @@ flowchart LR
     F --> U
 ```
 
-En aquest curs, el backend el treballarem principalment amb Java i Spring Boot o PHP i Laravel. Ara només necessites entendre quin paper juga dins d'un sistema Web.
+En aquest curs, el backend el treballarem més endavant amb tecnologies com Java, Spring Boot, PHP o Laravel. Ara només necessites entendre quin paper juga dins d'un sistema web.
 
 ---
 
 ## Request, response i HTTP
 
-[HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview) (Hyper Text Transfer Protocol): és el protocol principal que utilitzen navegador i servidor per comunicar-se a través d'internet.
+[HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview) (Hyper Text Transfer Protocol) és el protocol principal que utilitzen navegador i servidor per comunicar-se a través d'internet.
 
 Una **request** (petició) és el missatge que envia el client al servidor.
 
@@ -236,7 +236,7 @@ Quan entris a **Network**, veuràs moltes files. Cada fila és una petició que 
 
 | Pestanya | Què hi pots veure? | Per què importa? |
 |----------|--------------------|------------------|
-| **Headers** | URL, mètode HTTP, status code i capçaleres | Et diu què s'ha demanat i com ha respost el servidor |
+| **Headers** | URL, mètode HTTP, codi d'estat i capçaleres | Et diu què s'ha demanat i com ha respost el servidor |
 | **Payload** | Cos de dades enviat al servidor, si n'hi ha | Et mostra què envia el frontend en una request |
 | **Preview** | Resposta interpretada pel navegador | És útil per llegir JSON de forma còmoda |
 | **Response** | Resposta exacta del servidor | Et mostra el text real que ha tornat el backend o servidor |
@@ -308,7 +308,7 @@ Hauries de veure una resposta semblant a aquesta:
 2. Ves a **Network**.
 3. Recarrega la pàgina.
 4. Clica la petició que apareix a la llista.
-5. Mira **Headers** i localitza el mètode `GET` i el `status code`.
+5. Mira **Headers** i localitza el mètode `GET` i el codi d'estat.
 6. Mira **Response** i comprova que el servidor ha retornat JSON.
 7. Mira **Preview** i observa com el navegador presenta el JSON de forma més llegible.
 
@@ -317,20 +317,20 @@ Hauries de veure una resposta semblant a aquesta:
 - El navegador ha fet una request a un endpoint.
 - El servidor ha retornat una response.
 - La response no és una pàgina HTML, sinó dades JSON.
-- Aquest JSON podria ser utilitzat per un frontend per pintar una card, una taula o un perfil d'usuari.
+- Aquest JSON podria ser utilitzat per un frontend per pintar una targeta, una taula o un perfil d'usuari.
 
 ---
 
-## Activitat 3: observa una request amb dades  
-  
-Ara faràs una petició que envia dades amb `POST`.  
-  
-Obre aquesta pàgina:  
-  
-https://jsonplaceholder.typicode.com/  
-  
-Després obre DevTools i ves a la pestanya **Network**. Filtra per **Fetch/XHR**.  
-  
+## Activitat 3: observa una request amb dades
+
+Ara faràs una petició que envia dades amb `POST`.
+
+Obre aquesta pàgina:
+
+https://jsonplaceholder.typicode.com/
+
+Després obre DevTools i ves a la pestanya **Network**. Filtra per **Fetch/XHR**.
+
 Ara ves a **Console** i enganxa aquest codi:
 
 ```js
