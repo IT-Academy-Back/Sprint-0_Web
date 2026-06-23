@@ -21,7 +21,7 @@
 - [Introducció a Java](./algoritmia/java-intro.md)
 - [Entorn de desenvolupament en Java](./algoritmia/java-entorn.md)
 - Introducció PHP i entorn de desenvolupante
-- Exercicis amb Java i PHP
+- [Exercicis amb Java i PHP](./algoritmia/algoritmia.md)
 - Punt de control
 
 ### Repte Final
