@@ -11,9 +11,9 @@
 - Punt de control
 
 ### Introducció al Frontend
-- HTML
-- CSS
-- Javascript
+- [HTML](./frontend-basics/html/README.md)
+- [CSS](./frontend-basics/css/README.md)
+- [Javascript](./frontend-basics/js/README.md)
 - Repte final
 - Punt de control
 
