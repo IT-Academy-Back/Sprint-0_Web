@@ -21,12 +21,12 @@ frontend/
 
 | Exercici | Temps estimat |
 |-----------|--------------|
-| **Exercici 1 - Els meus primers estils** | 45 min |
-| **Exercici 2 - Donar estil a les llistes** | 45 min |
-| **Exercici 3 - Guia turística amb colors i imatges** | 1 h |
-| **Exercici 4 - Millorar la carta del restaurant** | 1,5 h |
-| **Exercici 5 - Portafolis personal responsive** | 2 h |
-| **Repte final - Web d'una acadèmia** | 3 h |
+| [**Exercici 1 - Els meus primers estils**](https://github.com/IT-Academy-Back/Sprint-0_Web/blob/main/frontend-basics/css/1-css.md) | 45 min |
+| [**Exercici 2 - Donar estil a les llistes**](https://github.com/IT-Academy-Back/Sprint-0_Web/blob/main/frontend-basics/css/2-css.md) | 45 min |
+| [**Exercici 3 - Guia turística amb colors i imatges**](https://github.com/IT-Academy-Back/Sprint-0_Web/blob/main/frontend-basics/css/3-css.md) | 1 h |
+| [**Exercici 4 - Millorar la carta del restaurant**](https://github.com/IT-Academy-Back/Sprint-0_Web/blob/main/frontend-basics/css/4-css.md) | 1,5 h |
+| [**Exercici 5 - Portafolis personal responsive**](https://github.com/IT-Academy-Back/Sprint-0_Web/blob/main/frontend-basics/css/5-css.md) | 2 h |
+| [**Repte final - Web d'una acadèmia**](https://github.com/IT-Academy-Back/Sprint-0_Web/blob/main/frontend-basics/css/repte-final-css.md) | 3 h |
 
 ---
 
