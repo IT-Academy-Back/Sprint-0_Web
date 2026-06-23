@@ -25,35 +25,17 @@ Per aquest motiu, HTML és una de les tecnologies fonamentals del desenvolupamen
 
 ---
 
-# Exercicis
+## Planificació dels exercicis
 
-### Exercici 1 · La meva primera pàgina web
+| Exercici | Temps estimat |
+|-----------|--------------|
+| [**Exercici 1 - La meva primera pàgina web**](1-html.md) | 45 - 60 min |
+| [**Exercici 2 - Els meus hobbies**](2-html.md) | 30 - 45 min |
+| [**Exercici 3 - Guia turística d'una ciutat**](3-html.md) | 1 - 1,5 h |
+| [**Exercici 4 - Carta d'un restaurant**](4-html.md) | 1 - 1,5 h |
+| [**Exercici 5 - Portafolis personal**](5-html.md) | 2 - 3 h |
+| [**Repte final - Web d'una acadèmia**](repte-final-html.md) | 2 - 4 h |
 
-**Durada estimada:** 45 - 60 min
-
-### Exercici 2 · Els meus hobbies
-
-**Durada estimada:** 30 - 45 min
-
-### Exercici 3 · Guia turística d'una ciutat
-
-**Durada estimada:** 1 - 1,5 h
-
-### Exercici 4 · Carta d'un restaurant
-
-**Durada estimada:** 1 - 1,5 h
-
-### Exercici 5 · Portafolis personal
-
-**Durada estimada:** 2 - 3 h
-
----
-
-# Repte final
-
-### Web d'una acadèmia
-
-**Durada estimada:** 2 - 4 h
 
 ---
 
