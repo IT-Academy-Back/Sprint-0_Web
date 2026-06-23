@@ -25,7 +25,7 @@
 - Punt de control
 
 ### Repte Final
-- PHP Enunciat
+- [PHP Enunciat: Tic-Tac-Toe Backend](./repte-final/repte-php/tic-tac-toe-backend.md)
 - [Java Enunciat: Tic-Tac-Toe Backend](./repte-final/repte-java/tic-tac-toe-backend.md)
 - Punt de control
 
