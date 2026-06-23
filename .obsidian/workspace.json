@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fonaments-web/DevTools.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DevTools"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fonaments-web/DevTools.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de DevTools"
+              "title": "Enlaces entrantes de README"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fonaments-web/DevTools.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de DevTools"
+              "title": "Enlaces salientes de README"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fonaments-web/DevTools.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de DevTools"
+              "title": "Esquema de README"
             }
           }
         ]
@@ -187,11 +187,11 @@
   "lastOpenFiles": [
     "fonaments-web/README.md",
     "fonaments-web/DevTools.md",
+    "frontend-basics/html/README.md",
+    "frontend-basics/README.md",
     "README.md",
     "frontend-basics/css/README.md",
     "frontend-basics/css/1-css.md",
-    "frontend-basics/README.md",
-    "frontend-basics/html/README.md",
     "frontend-basics/html/5-html.md",
     "frontend-basics/html/2-html.md",
     "frontend-basics/html/1-html.md",

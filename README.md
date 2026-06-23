@@ -2,7 +2,10 @@
 ## Materials
 
 ### Fonaments de la Web
-- [Activitat amb DevTools: mirar la web per dins](./fonaments-web/DevTools.md)
+- Arquitectura Client-Servidor
+- Anatomia de d'una URL
+- Estructura d'un porjecte
+- [Activitat amb DevTools: mirar la web per dins](./fonaments-web/DevTools.md) (1h)
 
 ### Introducció al Frontend
 
