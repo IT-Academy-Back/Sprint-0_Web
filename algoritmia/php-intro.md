@@ -122,14 +122,14 @@ En PHP normalment parlem de **mètodes**(si son funcions dins una classe) o **fu
 
 ```php
 function saludar(string $nom): void {
-    echo "Hola ".nom."\n";
+    echo "Hola ".$nom."\n";
 }
 ```
 
 Exemple amb retorn:
 
 ```php
-int sumar(int $a, int $b): int {
+function sumar(int $a, int $b): int {
     return $a + $b;
 }
 ```
@@ -167,10 +167,10 @@ i d'igualtat estricta "==="(compara valors i tipus de variable)
 
 ## Documentació recomanada
 
-- [PHP Data Types](https://www.w3schools.com/java/php_datatypes.asp)
-- [PHP Conditions](https://www.w3schools.com/java/php_if_else.asp)
-- [PHP Loops](https://www.w3schools.com/java/php_looping.asp)
-- [PHP Arrays](https://www.w3schools.com/java/php_arrays.asp)
+- [PHP Data Types](https://www.w3schools.com/php/php_datatypes.asp)
+- [PHP Conditions](https://www.w3schools.com/php/php_if_else.asp)
+- [PHP Loops](https://www.w3schools.com/php/php_looping.asp)
+- [PHP Arrays](https://www.w3schools.com/php/php_arrays.asp)
 - [PHP Functions](https://www.w3schools.com/php/php_functions.asp)
 - [PHP POO](https://www.w3schools.com/php/php_oop_classes_objects.asp)
 
