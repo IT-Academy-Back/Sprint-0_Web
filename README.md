@@ -18,7 +18,8 @@
 - Punt de control
 
 ### Algoritmia
-- [Introducció a Java i entorn de desenvolupament](./algoritmia/java-intro.md)
+- [Introducció a Java](./algoritmia/java-intro.md)
+- [Entorn de desenvolupament en Java](./algoritmia/java-entorn.md)
 - Introducció PHP i entorn de desenvolupante
 - Exercicis amb Java i PHP
 - Punt de control
