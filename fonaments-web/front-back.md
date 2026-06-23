@@ -9,7 +9,8 @@ Algunes de les seves tasques són:
 - Crear la interfície de la web o aplicació.
 - Fer que la pàgina sigui responsive i funcioni en diferents dispositius.
 - Gestionar les interaccions amb l’usuari (botons, formularis, menús, etc.).
-- Consumir les dades proporcionades pel Backend i mostrar-les de manera adequada.
+- Consumir les dades proporcionades pel Backend.
+- Aplicar la lògica necessària perquè la informació es mostri correctament i les funcionalitats de la interfície funcionin de manera adequada.
 
 Les tecnologies més habituals són HTML, CSS, JavaScript i TypeScript, així com els frameworks Angular o React.
 
