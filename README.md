@@ -7,7 +7,7 @@
 - Estructura d'un projecte
 - [Activitat amb DevTools: mirar la web per dins](./fonaments-web/DevTools.md) (1h)
 - Test presentacions
-- Desenvolupament frontend vs backend
+- [Desenvolupament frontend vs backend](./fonaments-web/front-back)
 - Punt de control
 
 ### Introducció al Frontend

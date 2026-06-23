@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "algoritmia/algoritmia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de README"
+              "title": "Enlaces entrantes de algoritmia"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "algoritmia/algoritmia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de README"
+              "title": "Enlaces salientes de algoritmia"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "algoritmia/algoritmia.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de README"
+              "title": "Esquema de algoritmia"
             }
           }
         ]
@@ -185,10 +185,13 @@
   },
   "active": "d89a90c0e16d32f9",
   "lastOpenFiles": [
+    "fonaments-web/front-back.md",
+    "algoritmia/algoritmia.md",
+    "fonaments-web/back.md",
+    "README.md",
     "frontend-basics/README.md",
     "frontend-basics/html/README.md",
     "frontend-basics/html/repte-final-html.md",
-    "README.md",
     "fonaments-web/README.md",
     "fonaments-web/DevTools.md",
     "frontend-basics/css/README.md",
@@ -198,8 +201,8 @@
     "frontend-basics/html/1-html.md",
     "frontend-basics/html/4-html.md",
     "frontend-basics/html/3-html.md",
-    "php-basics",
-    "java-basics",
+    "repte-final",
+    "algoritmia",
     "Introducció al Frontend.md",
     "fonaments-web"
   ]
