@@ -26,7 +26,7 @@
 
 ### Repte Final
 - PHP Enunciat
-- Java Enunciat
+- [Java Enunciat: Tic-Tac-Toe Backend](./repte-final/repte-java/tic-tac-toe-backend.md)
 - Punt de control
 
 ### Entrevista Final
