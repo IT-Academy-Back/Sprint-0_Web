@@ -125,14 +125,3 @@ Abans de passar al bloc de frontend, hauries de poder respondre:
 - Per què és útil JSON?
 - Per què DevTools és útil per entendre una aplicació web?
 
----
-
-## Ordre recomanat
-
-1. Arquitectura client-servidor.
-2. Anatomia d'una URL.
-3. Estructura d'un projecte web.
-4. Desenvolupament frontend vs backend.
-5. Activitat pràctica amb DevTools.
-6. Test de presentacions.
-7. Punt de control.
