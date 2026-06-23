@@ -23,12 +23,14 @@ Al final del sprint hauràs de triar l'itinerari d'especialització que seguirà
 - Punt de control
 
 ### Introducció al Frontend
+- [Índex del bloc](./frontend-basics/README.md)
 - [HTML](./frontend-basics/html/README.md)
 - [CSS](./frontend-basics/css/README.md)
 - [Javascript](./frontend-basics/js/README.md)
 - Punt de control
 
 ### Algoritmia
+- [Índex del bloc](./algoritmia/README.md)
 - [Introducció a Java](./algoritmia/java-intro.md)
 - [Entorn de desenvolupament en Java](./algoritmia/java-entorn.md)
 - [Introducció a PHP](./algoritmia/php-intro.md)
@@ -37,6 +39,7 @@ Al final del sprint hauràs de triar l'itinerari d'especialització que seguirà
 - Punt de control
 
 ### Repte Final
+- [Índex del bloc](./repte-final/README.md)
 - [PHP Enunciat: Tic-Tac-Toe Backend](./repte-final/repte-php/tic-tac-toe-backend.md)
 - [Java Enunciat: Tic-Tac-Toe Backend](./repte-final/repte-java/tic-tac-toe-backend.md)
 - [Punt de control](./repte-final/README.md#punt-de-control)

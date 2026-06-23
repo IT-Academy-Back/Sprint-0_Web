@@ -2,7 +2,7 @@
 
 En aquest mòdul connectarem el que has treballat durant el sprint: el frontend, els llenguatges backend que has practicat durant els exercicis d'algoritmia, i els conceptes de comunicació client-servidor que has vist al bloc de fonaments de la web.
 
-Et proposem dos reptes:
+**Et proposem dos reptes:**
 
 **[Tic-Tac-Toe — Java](./repte-java/tic-tac-toe-backend.md)**
 
