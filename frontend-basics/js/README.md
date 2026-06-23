@@ -29,36 +29,18 @@ frontend/
 ├── styles.css
 └── script.js
 ```
-
-# Exercicis
-
-### Exercici 1 · Mostrar informació per consola
-
-**Durada estimada:** 45 min
-
-### Exercici 2 · Interaccionar amb botons
-
-**Durada estimada:** 1 h
-
-### Exercici 3 · Manipular el DOM
-
-**Durada estimada:** 1,5 h
-
-### Exercici 4 · Formulari de contacte
-
-**Durada estimada:** 2 h
-
-### Exercici 5 · Llista de tasques
-
-**Durada estimada:** 2 - 3 h
-
 ---
 
-# Repte final
+## Planificació dels exercicis
 
-### Web d'una acadèmia interactiva
-
-**Durada estimada:** 3 - 4 h
+| Exercici | Temps estimat |
+|-----------|--------------|
+| [**Exercici 1 - Mostrar informació per consola**](1-js.md) | 45 min |
+| [**Exercici 2 - Interaccionar amb botons**](2-js.md) | 1 h |
+| [**Exercici 3 - Manipular el DOM**](3-js.md) | 1,5 h |
+| [**Exercici 4 - Formulari de contacte**](4-js.md) | 2 h |
+| [**Exercici 5 - Llista de tasques**](5-js.md) | 2 - 3 h |
+| [**Repte final - Web d'una acadèmia interactiva**](repte-final-js.md) | 3 - 4 h |
 
 ---
 
