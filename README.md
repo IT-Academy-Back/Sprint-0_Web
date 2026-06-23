@@ -7,7 +7,7 @@
 - Estructura d'un projecte
 - [Activitat amb DevTools: mirar la web per dins](./fonaments-web/DevTools.md) (1h)
 - Test presentacions
-- [Desenvolupament frontend vs backend](./fonaments-web/front-back)
+- [Desenvolupament frontend vs backend](./fonaments-web/front-back.md)
 - Punt de control
 
 ### Introducció al Frontend
@@ -18,7 +18,7 @@
 - Punt de control
 
 ### Algoritmia
-- Introducció a Java i entorn de desenvolupament
+- [Introducció a Java i entorn de desenvolupament](./algoritmia/java-intro.md)
 - Introducció PHP i entorn de desenvolupante
 - Exercicis amb Java i PHP
 - Punt de control
