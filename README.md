@@ -34,7 +34,7 @@ Al final del sprint hauràs de triar l'itinerari d'especialització que seguirà
 - [Introducció a Java](./algoritmia/java-intro.md)
 - [Entorn de desenvolupament en Java](./algoritmia/java-entorn.md)
 - [Introducció a PHP](./algoritmia/php-intro.md)
-- Entorn de desenvolupament
+- [Entorn de desenvolupament](./algoritmia/php-entorn.md)
 - [Exercicis amb Java i PHP](./algoritmia/algoritmia.md)
 - [Punt de control](./algoritmia/README.md#punt-de-control)
 
