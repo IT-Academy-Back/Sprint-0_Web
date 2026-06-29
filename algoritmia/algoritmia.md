@@ -8,9 +8,7 @@ JAVA i PHP. Resol els problemes en els 2 llenguatges i treu les teves pròpies c
 
 ### Exercici 1
 
-Continua el programa anterior ampliant-lo de la següent manera:  
-    - Si el nombre és positiu, escriu tots els nombres de 0 a aquest nombre positiu, d'un en un.  
-    - Si és negatiu, escriu tots els nombres des de d'aquest nombre negatiu fins a 0. També d'un en un.  
+L'usuari introdueix un número, si el número és positiu, el programa escriu tots els nombres de 0 a aquest nombre positiu, d'un en un. Si el número és negatiu, el programa escriu tots els nombres des de d'aquest nombre negatiu fins a 0. També d'un en un.
 
 Exemple:  
 Si entra "3" el programa ha de tornar "1 2 3"  
