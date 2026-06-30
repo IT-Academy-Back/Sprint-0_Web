@@ -46,9 +46,7 @@ Conceptes principals:
 - protocol,
 - domini,
 - ruta,
-- paràmetres de consulta,
-- fragments,
-- ports.
+- paràmetres.
 
 ### 3. [Estructura d'un projecte web](./presentacions/estructura-projecte-web.pptx)
 
