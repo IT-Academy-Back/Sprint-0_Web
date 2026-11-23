@@ -9,16 +9,16 @@ Completar la lògica backend d'un joc de **3 en ratlla**.
 Rebràs un frontend ja preparat i un backend Java amb Spring Boot. El projecte ja té l'estructura creada i la comunicació entre frontend i backend preparada.
 
 La teva feina serà completar algunes funcionalitats dins del servei del joc.
----
+
+
 
 ## Què rebràs?
+Descarrega el projecte des d'aquest enllaç: [Tic Tac Toe App](https://github.com/IT-Academy-Back/tic-tac-toe-java)
 
-- Una carpeta `dist` amb el frontend compilat.
-- Un projecte `backend` amb Spring Boot i codi Java ja preparat:
-  - Inici de la partida implementat.
-  - Tauler del joc definit.
-  - Classes de request i response creades.
-  - Comentaris indicant quines parts s'han de completar.
+Al [README del repositori](https://github.com/IT-Academy-Back/tic-tac-toe-java#readme) trobaràs les instruccions per executar el frontend i el backend, així com les indicacions sobre què has de completar.
+
+- Un `frontend` fet amb React.
+- Un projecte de `backend` amb Spring Boot i codi Java ja preparat.
 
 ---
 
@@ -33,31 +33,6 @@ graph LR
     B -->|"JSON {board, status}"| A
 ```
 
----
-
-## Com executar el frontend
-
-1. Obre la carpeta `dist` amb Visual Studio Code.
-2. Obre el fitxer `index.html`.
-3. Executa'l amb **Live Server**.
-4. El joc s'obrirà al navegador.
-
-> **Important:** obre directament la carpeta `dist` amb Visual Studio Code. Si obres una carpeta superior, alguns recursos del frontend poden no carregar correctament.
-
----
-
-## Com executar el backend
-
-1. Obre la carpeta `backend` amb IntelliJ IDEA.
-2. Comprova que el projecte utilitza **Java 21**.
-3. Executa la classe principal del projecte.
-4. El backend ha d'estar disponible a:
-
-```text
-http://localhost:8080
-```
-
----
 
 ## Fitxer que has de modificar
 
